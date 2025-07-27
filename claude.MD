@@ -69,5 +69,6 @@ You have access to the following MCP servers:
 - **basic-memory**: Remember project decisions and patterns.
 - **GitHub**: Manage repository operations
 - **Playwright**: Access the project's site in browser to see anything you need.
+- **Filesystem**: Access to the folders and files for the project.
 
 Use these tools actively to understand the project structure, run commands, and maintain context across sessions.

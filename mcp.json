@@ -10,9 +10,17 @@
       "command": "npx",
       "args": [
         "@modelcontextprotocol/server-sqlite",
-        "/Users/redacted/Code/projects/project-name/database/database.db"
+        "/Users/redacted/Code/projects/project-name/database/database.sqlite"
       ],
       "env": {}
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/redacter/Code/project/"
+      ]
     }
   }
 }
