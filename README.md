@@ -19,18 +19,43 @@ Follow these instructions to get the environment set up.
 
 ### Installation
 
-1.  **Add as a Git Submodule**: In your Laravel project's root directory, add this repository as a Git submodule. This keeps the tooling separate from your application code and makes it easy to receive updates.
+Choose one of the following installation methods:
 
-    ```bash
-    git submodule add https://github.com/jpmurray/claude-and-me.git
-    git commit -m "Add claude-and-me submodule"
-    ```
+#### Option 1: Use as Project Base
 
-2.  **Install Dependencies**: Install the required PHP development dependencies using Composer.
+Clone this repository as the foundation for your new Laravel project:
 
-    ```bash
-    composer require --dev # None specific for now.
-    ```
+```bash
+git clone https://github.com/jpmurray/claude-and-me.git your-project-name
+cd your-project-name
+```
+
+Then install Laravel within this directory or move your existing Laravel application files here.
+
+#### Option 2: Copy to Existing Project
+
+For existing Laravel projects, copy the necessary files from this repository to your project root:
+
+```bash
+# Clone temporarily
+git clone https://github.com/jpmurray/claude-and-me.git temp-claude-tools
+
+# Copy configuration files to your existing Laravel project
+cp temp-claude-tools/mcp.json your-laravel-project/
+cp temp-claude-tools/claude.md your-laravel-project/
+cp -r temp-claude-tools/.claude your-laravel-project/
+
+# Clean up
+rm -rf temp-claude-tools
+```
+
+#### Install Dependencies
+
+Install the required PHP development dependencies using Composer:
+
+```bash
+composer require --dev # None specific for now.
+```
 
 ### Configuration
 
