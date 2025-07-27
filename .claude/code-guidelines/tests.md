@@ -50,3 +50,7 @@ test('user can view their profile', function () {
       ->assertOk();
 });
 ```
+
+## File location
+
+This file is always located at @.claude/code-guidelines/tests.md

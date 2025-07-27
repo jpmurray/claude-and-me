@@ -38,27 +38,27 @@ Remember: We optimize for maintainability over cleverness. When in doubt, choose
 
 # General development principles
 
-Read `./.claude/code-guidelines/tdd.md` for my preferences.
+Read @.claude/code-guidelines/tdd.md for my preferences.
 
 ### Laravel Best Practices
 
-Read `./.claude/code-guidelines/PHP.md` for my preferences.
+Read @.claude/code-guidelines/PHP.md for my preferences.
 
 ### Livewire Development
 
-Read `./.claude/code-guidelines/livewire.md` for my preferences.
+Read @.claude/code-guidelines/livewire.md for my preferences.
 
 ### Frontend Development
 
-Read `./.claude/code-guidelines/frontend.md` for my preferences.
+Read @.claude/code-guidelines/frontend.md for my preferences.
 
 ### Writing tests
 
-Read `./.claude/code-guidelines/tests.md` for my preferences.
+Read @.claude/code-guidelines/tests.md for my preferences.
 
 ### Using basic-memory
 
-Read `./.claude/code-guidelines/basic-memory.md` for my preferences.
+Read @.claude/code-guidelines/basic-memory.md for my preferences.
 
 ## Available Tools
 

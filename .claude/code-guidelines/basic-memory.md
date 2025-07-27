@@ -475,3 +475,7 @@ When creating relations:
    - Recommend adding relations between topics
    - Offer to create summaries of scattered information
    - Suggest potential missing relations: "I notice this might relate to [topic], would you like me to add that connection?"
+
+## File location
+
+This file is always located at @.claude/code-guidelines/basic-memory.md

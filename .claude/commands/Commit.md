@@ -54,7 +54,7 @@ type: "command"
 - **Trigger Condition**: When editing any PHP (.php) files
 - **What to Check**: Verify that the changes comply with the appropriate code guidelines
 - **Specific Checks**:
-  - For PHP files (.php): Validate against the PHP code guidelines in `./.claude/code-guidelines/php.md`
+  - For PHP files (.php): Validate against the PHP code guidelines in @.claude/code-guidelines/php.md
 - **Failure Action**:
 
   - Abort the commit process and display detailed error message about code guidelines violations
@@ -65,7 +65,7 @@ type: "command"
 - **Trigger Condition**: When editing any Livewire (in `./app/Livewire/` or `./resources/views/livewire`) files
 - **What to Check**: Verify that the changes comply with the appropriate code guidelines
 - **Specific Checks**:
-  - Validate against the Livewire code guidelines in `./.claude/code-guidelines/livewire.md`
+  - Validate against the Livewire code guidelines in @.claude/code-guidelines/livewire.md
 - **Failure Action**:
   - Abort the commit process and display detailed error message about code guidelines violations
   - Show the specific guideline(s) being violated

@@ -21,3 +21,7 @@
 - Keep components focused and single-purpose
 - Use wire:model for form inputs
 - Implement real-time validation with wire:model.lazy or wire:model.debounce
+
+## File location
+
+This file is always located at @.claude/code-guidelines/livewire.md

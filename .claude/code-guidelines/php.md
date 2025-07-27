@@ -2,7 +2,7 @@
 
 ## PHP Code Style
 
-- Follow the Laravel coding style as defined in the [Laravel documentation](https://laravel.com/docs/master/contributions#coding-style).
+- Follow the Laravel coding style as defined in the [Laravel documentation](https://laravel.com/docs/master/contributions#coding-style), or use context7 to read them.
 - Use Laravel Pint for code formatting with the Laravel preset.
 - Use proper type hints for method parameters and return types.
 - Use PHPDoc blocks for properties, methods, and functions with proper type annotations.
@@ -89,3 +89,7 @@ protected static function newFactory(): TodoFactory
 - Use single API routes don't use ApiResource for routing.
 - Responses should use Resource classes.
 - Controllers should use form requests for validation.
+
+## File location
+
+This file is always located at @.claude/code-guidelines/php.md

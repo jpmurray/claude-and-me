@@ -35,3 +35,7 @@
 - Ensure proper color contrast for text.
 - Ensure keyboard navigation works correctly.
 - Test with screen readers and other assistive technologies.
+
+## File location
+
+This file is always located at @.claude/code-guidelines/frontend.md
