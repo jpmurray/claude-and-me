@@ -25,8 +25,8 @@ The project is always running `npm run dev` with Laravel Valet, and so the lates
 
 - Always be brief, save tokens, trust the coder's knowledge and don't try to praise them when speaking to them.
 - When unsure about implementation details, ALWAYS ask the coder.
-- Always work by doing a tasks, iterate through the task's steps to do your work _then_ after you are done with a task, as the user if you can write to the change log and commit the changes or if there's anything else to do.
-- After a task is done, remember the coder it might want to start a new session with you.
+- Always work by doing a tasks, iterate through the task's steps to do your work _then_ after you are done with a task, ask the user if you can write to the change log and commit the changes or if there's anything else to do.
+- After a task is done, remind the coder they might want to start a new session with you.
 
 ### What AI Must NEVER Do
 
@@ -65,10 +65,11 @@ Read @.claude/code-guidelines/basic-memory.md for my preferences.
 You have access to the following MCP servers:
 
 - **Context7**: Access latest Laravel, Livewire, Livewire's Flux documentation and any other framework docs
-- **sqlite**: Query and modify database directly
-- **basic-memory**: Remember project decisions and patterns.
-- **GitHub**: Manage repository operations
-- **Playwright**: Access the project's site in browser to see anything you need.
-- **Filesystem**: Access to the folders and files for the project.
+- **sqlite**: Query and modify the SQLite database directly for data analysis and management
+- **basic-memory**: Remember project decisions, patterns, and maintain context across sessions
+- **GitHub**: Manage repository operations, issues, pull requests, and workflows
+- **Playwright**: Browser automation to test and interact with the live site at boundaries.fyi.test
+- **Filesystem**: File system operations within the project directory structure
+- **Git**: Local git repository management following Gitflow branching strategy
 
 Use these tools actively to understand the project structure, run commands, and maintain context across sessions.

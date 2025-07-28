@@ -12,6 +12,13 @@ All use cases should be tested to have as much code coverage as possible. When w
 - Use factories and seeders for test data.
 - Use database transactions for test isolation.
 
+## Testing Commands
+
+- **Run tests**: `php artisan test` or `./vendor/bin/pest`
+- **Run specific test**: `php artisan test --filter="test name"`
+- **Code formatting**: `./vendor/bin/pint`
+- **Run with coverage**: `php artisan test --coverage`
+
 ## Test Types
 
 - Unit Tests: Test individual classes and methods in isolation.

@@ -7,12 +7,17 @@
       "alwaysAllow": ["read_note"]
     },
     "sqlite": {
-      "command": "npx",
+      "command": "docker",
       "args": [
-        "@modelcontextprotocol/server-sqlite",
+        "run",
+        "--rm",
+        "-i",
+        "-v",
+        "mcp-test:/mcp",
+        "mcp/sqlite",
+        "--db-path",
         "/Users/redacted/Code/projects/project-name/database/database.sqlite"
-      ],
-      "env": {}
+      ]
     },
     "filesystem": {
       "command": "npx",
@@ -20,6 +25,14 @@
         "-y",
         "@modelcontextprotocol/server-filesystem",
         "/Users/redacter/Code/project/"
+      ]
+    },
+    "git": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-git",
+        "--repository",
+        "/Users/redacted/Code/projects/project-name/"
       ]
     }
   }
